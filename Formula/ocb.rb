@@ -6,7 +6,7 @@ class Ocb < Formula
   license "Apache-2.0"
   head "https://github.com/open-telemetry/opentelemetry-collector.git", branch: "main"
 
-  depends_on "go" => [:build, :test]
+  depends_on "go"
 
   def install
     cd "cmd/builder" do
